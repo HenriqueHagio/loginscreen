@@ -1,0 +1,70 @@
+body {
+    background-image: url('/images/background.webp');
+    background-size: cover;
+    text-align: center;
+    font-family: Nanum Gothic, sans-serif;
+    font-size: 14px;
+    color: antiquewhite;
+}
+
+h1{
+    padding: 1em;
+    font-weight:700;
+}
+
+
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type=email] {
+    color:bisque;
+    padding: 1em;
+    width: 18em;
+    background-color: transparent;
+    border-radius:25px;
+}
+
+input[type=password] {
+    color:bisque;
+    padding: 1em;
+    width: 18em;
+    background-color: transparent;
+    border-radius:25px;
+    margin: 1em;
+}
+
+input[type=submit] {
+    border-radius: 25px;
+    width: 20em;
+    padding: 1em;
+    background-color:burlywood ;
+    cursor: pointer;
+}
+
+remember{
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    flex-direction: row;   
+    gap: 10em;
+}
+
+button{
+    width: 10em;
+    border: 1em;
+    padding: 1em;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    color: white;
+    background-color: #000;
+}
+
+
